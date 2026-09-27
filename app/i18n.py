@@ -6,10 +6,10 @@ import importlib, json
 
 # code, output folder, html lang, native name
 EDITIONS = [
-    ('ja', '', 'ja', '日本語'),
+    ('zh-Hans', '', 'zh-Hans', '简体中文'),
+    ('ja', 'ja', 'ja', '日本語'),
     ('en', 'en', 'en', 'English'),
     ('zh-Hant', 'zh-hant', 'zh-Hant', '繁體中文'),
-    ('zh-Hans', 'zh-hans', 'zh-Hans', '简体中文'),
     ('ko', 'ko', 'ko', '한국어'),
     ('id', 'id', 'id-ID', 'Bahasa Indonesia'),
     ('vi', 'vi', 'vi', 'Tiếng Việt'),
